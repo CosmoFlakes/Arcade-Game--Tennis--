@@ -132,10 +132,10 @@ function drawEverything() {
 	if(showingWinScreen) {
 		canvasContext.fillStyle="white";
 		if(player1score>=winningScore) {
-			canvasContext.fillText("Right Player Won!",350,200);
+			canvasContext.fillText("Left Player Won!",350,200);
 		}
 		else if(player2score>=winningScore) {
-			canvasContext.fillText("Left Player Won!",350,200);
+			canvasContext.fillText("Right Player Won!",350,200);
 		}
 		canvasContext.fillText("click to continue",350,500);
 		return;
